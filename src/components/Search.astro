@@ -1,0 +1,82 @@
+---
+/**
+ * Site search — Pagefind (static, no server).
+ *
+ * Pagefind's index is produced by the `postbuild` script in package.json
+ * (`pagefind --site dist`). The UI assets therefore only exist after a build:
+ * in dev the panel still opens and tells you to search the built site.
+ */
+---
+
+<div class="search-overlay" id="searchOverlay" role="dialog" aria-modal="true" aria-label="Search">
+  <div class="search-panel">
+    <div class="search-panel-head">
+      <span>Search</span>
+      <button class="search-close" id="searchClose" aria-label="Close search">✕</button>
+    </div>
+    <div class="search-body" id="searchBody">
+      <div id="search"></div>
+    </div>
+  </div>
+</div>
+
+<script>
+  const overlay = document.getElementById('searchOverlay');
+  const closeBtn = document.getElementById('searchClose');
+  const body = document.getElementById('searchBody');
+  let ready = false;
+  let failed = false;
+
+  async function loadPagefindUI() {
+    if (ready || failed) return;
+    try {
+      if (!document.querySelector('link[data-pagefind-ui]')) {
+        const link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.href = '/pagefind/pagefind-ui.css';
+        link.dataset.pagefindUi = '1';
+        document.head.appendChild(link);
+      }
+      await new Promise((res, rej) => {
+        const s = document.createElement('script');
+        s.src = '/pagefind/pagefind-ui.js';
+        s.onload = res;
+        s.onerror = rej;
+        document.head.appendChild(s);
+      });
+      // @ts-ignore — global injected by the script above
+      new window.PagefindUI({ element: '#search', showSubResults: true, showImages: false });
+      ready = true;
+    } catch {
+      failed = true;
+      body.innerHTML =
+        '<div class="empty" style="margin:0"><p>Search index not available.</p>' +
+        '<p class="empty-hint">Pagefind indexes the <code>dist/</code> output, so search works on a ' +
+        'built site — run <code>bun run build</code> then <code>bun run preview</code>.</p></div>';
+    }
+  }
+
+  function open() {
+    overlay?.classList.add('open');
+    loadPagefindUI().then(() => {
+      const input = overlay?.querySelector<HTMLInputElement>('.pagefind-ui__search-input');
+      input?.focus();
+    });
+  }
+  function close() {
+    overlay?.classList.remove('open');
+  }
+
+  document.getElementById('searchOpen')?.addEventListener('click', open);
+  closeBtn?.addEventListener('click', close);
+  overlay?.addEventListener('click', (e) => { if (e.target === overlay) close(); });
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') close();
+    // ⌘K / Ctrl-K
+    if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') {
+      e.preventDefault();
+      overlay?.classList.contains('open') ? close() : open();
+    }
+  });
+</script>

@@ -1,0 +1,35 @@
+---
+const links = [
+  { href: '/', label: 'Home' },
+  { href: '/about', label: 'About' },
+  { href: '/work', label: 'Work' },
+  { href: '/canon', label: 'Canon' },
+];
+const path = Astro.url.pathname;
+const isActive = (href) => {
+  const clean = path.replace(/\/$/, '') || '/';
+  const target = href.replace(/\/$/, '') || '/';
+  return clean === target;
+};
+---
+
+<nav data-pagefind-ignore>
+  <a href="/" class="nav-logo">Orkun Ravi Külçe</a>
+
+  <div class="nav-right">
+    <ul class="nav-links" id="navLinks">
+      {links.map((l) => (
+        <li><a href={l.href} class:list={{ active: isActive(l.href) }}>{l.label}</a></li>
+      ))}
+    </ul>
+
+    <button class="search-btn" id="searchOpen" type="button" aria-label="Search">
+      <svg viewBox="0 0 16 16" aria-hidden="true" width="13" height="13" fill="none"
+           stroke="currentColor" stroke-width="1.6" stroke-linecap="round">
+        <circle cx="7" cy="7" r="4.5" /><path d="M10.5 10.5 14 14" />
+      </svg>
+      <span>Search</span>
+      <kbd>⌘K</kbd>
+    </button>
+  </div>
+</nav>

@@ -1,0 +1,14 @@
+# Build output — Cloudflare Pages builds this itself
+dist/
+.astro/
+
+# Dependencies
+node_modules/
+
+# Internal tooling — screenshots, preview server, image work.
+# Not part of the published site, and carries absolute local paths.
+tools/
+
+# Noise
+.DS_Store
+*.log

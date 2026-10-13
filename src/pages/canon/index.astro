@@ -1,0 +1,68 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const entries = (await getCollection('canon')).sort((a, b) => a.data.order - b.data.order);
+
+// kategoriye göre grupla — gruplar ilk görünme sırasını korur
+const order: string[] = [];
+const byCategory = new Map<string, typeof entries>();
+for (const entry of entries) {
+  const cat = entry.data.category;
+  if (!byCategory.has(cat)) {
+    byCategory.set(cat, []);
+    order.push(cat);
+  }
+  byCategory.get(cat)!.push(entry);
+}
+---
+
+<BaseLayout title="Canon" description="Books, texts and teachings that shaped how Orkun Ravi Külçe thinks.">
+  <div class="page page-header">
+    <p class="back-link"><a href="/">← Home</a></p>
+  </div>
+  <div class="page page-body">
+    <h2><span class="hash">#</span>Canon</h2>
+    <p class="section-lede">
+      Books, texts and teachings that shaped how I think. Each entry leads with the
+      one line I'd give someone who asked why it matters.
+    </p>
+
+    {entries.length === 0 ? (
+      <div class="empty">
+        <p>Nothing here yet.</p>
+        <p class="empty-hint">
+          Add a Markdown file to <code>src/content/canon/</code> — copy
+          <code>_template.md</code> and fill it in. <code>whyItMatters</code> is the
+          one required field beyond the title.
+        </p>
+      </div>
+    ) : (
+      order.map((category) => (
+        <section class="canon-group">
+          <h3 class="canon-group-title">
+            <span class="hash">#</span>{category}
+          </h3>
+          <ul class="canon-list">
+            {byCategory.get(category)!.map((entry) => (
+              <li class="canon-item">
+                <a href={`/canon/${entry.id}`} class="canon-link">
+                  <div class="canon-top">
+                    <span class={`kind kind-${entry.data.kind}`}>{entry.data.kind}</span>
+                    <span class="canon-title">{entry.data.title}</span>
+                  </div>
+                  {entry.data.author && (
+                    <div class="canon-author">
+                      {entry.data.author}{entry.data.year ? ` · ${entry.data.year}` : ''}
+                    </div>
+                  )}
+                  <p class="canon-why">{entry.data.whyItMatters}</p>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))
+    )}
+  </div>
+</BaseLayout>
