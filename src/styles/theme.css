@@ -390,6 +390,15 @@ nav{
   margin:0 auto;
 }
 
+/* Work masthead emblem */
+.work-logo{margin:0 0 2.5em;padding:0}
+.work-logo img{
+  display:block;
+  width:min(300px,60vw);
+  height:auto;
+  margin:0 auto;
+}
+
 /* ── Empty state ── */
 .empty{
   border-top:1px solid var(--line);
