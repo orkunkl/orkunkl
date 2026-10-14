@@ -3,7 +3,7 @@ title: Revive Saiva Tantra
 role: Translator — English to Turkish
 summary: Sutras translated from English into Turkish, for a resource site on the non-dual Śaiva tradition.
 status: active
-tags: [Translation, Sanskrit, Turkish, Kashmir Shaivism]
+tags: [Translation, Sanskrit, Turkish, Non-dual]
 link: https://www.revivetantra.org/
 order: 6
 ---
