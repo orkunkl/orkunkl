@@ -381,6 +381,15 @@ nav{
   .about-sidebar{text-align:left;margin-bottom:1.5em}
 }
 
+/* closing image — same scale and treatment as the home hero rose */
+.about-image{margin:3.5em 0 0;padding:0}
+.about-image img{
+  display:block;
+  width:min(440px,74vw);
+  height:auto;
+  margin:0 auto;
+}
+
 /* ── Empty state ── */
 .empty{
   border-top:1px solid var(--line);
