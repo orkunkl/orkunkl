@@ -4,7 +4,7 @@ author: Igor Kufayev
 kind: book
 category: Awakening & Its Traps
 whyItMatters: "Kuṇḍalinī is not an energy you acquire. She is consciousness recognising itself — and the process is not a metaphor."
-tags: [Kashmir Shaivism, Kuṇḍalinī, Practice]
+tags: [Non-dual, Kuṇḍalinī, Practice]
 order: 4
 ---
 

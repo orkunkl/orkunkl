@@ -18,5 +18,5 @@ instance of the harmony the universe is already made of, which is why it moves u
 the way it does. The chapters range from the mysticism of sound proper through
 language, breath, and the music of the spheres.
 
-Sits next to the Kashmir Shaiva material for me: one tradition calls it spanda, this
+Sits next to the non-dual material for me: one tradition calls it spanda, this
 one calls it harmony. Same observation from two directions.

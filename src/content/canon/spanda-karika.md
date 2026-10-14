@@ -5,7 +5,7 @@ kind: text
 category: The Non-Dual Tradition
 year: "~9th century"
 whyItMatters: "Consciousness is not a still mirror. It is a pulse — and the whole world is that pulse knowing itself."
-tags: [Kashmir Shaivism, Sanskrit, Spanda]
+tags: [Non-dual, Sanskrit, Spanda]
 order: 1
 ---
 

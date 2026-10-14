@@ -18,6 +18,6 @@ only reflect other signs.
 The opening image: the map that comes to precede the territory. Disneyland is his
 worked example of a place that exists to persuade you the world outside it is real.
 
-Read it against the Kashmir Shaiva material and something sharpens. One tradition
+Read it against the non-dual material and something sharpens. One tradition
 says manifestation is consciousness appearing as form. The other says the sign has
 detached from anything appearing in it. Both are descriptions of the same gap.

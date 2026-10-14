@@ -5,7 +5,7 @@ kind: text
 category: The Non-Dual Tradition
 year: "~11th century"
 whyItMatters: "Liberation is not something you gain. It is something you recognise — you were never not what you are looking for."
-tags: [Kashmir Shaivism, Sanskrit, Recognition]
+tags: [Non-dual, Sanskrit, Recognition]
 order: 3
 ---
 
