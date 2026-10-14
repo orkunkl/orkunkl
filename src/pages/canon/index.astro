@@ -4,17 +4,32 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 
 const entries = (await getCollection('canon')).sort((a, b) => a.data.order - b.data.order);
 
-// kategoriye göre grupla — gruplar ilk görünme sırasını korur
-const order: string[] = [];
+// Shelf order. The practical and technical material leads; the spiritual
+// shelves are deliberately last.
+const CATEGORY_ORDER = [
+  'Meaning & the Mind',
+  'Language & Relationship',
+  'Image & Spectacle',
+  'Technology & Sovereignty',
+  'Content & Influences',
+  'Systems & Coordination',
+  'The Non-Dual Tradition',
+  'Awakening & Its Traps',
+  'Sound & Vibration',
+];
+
 const byCategory = new Map<string, typeof entries>();
 for (const entry of entries) {
   const cat = entry.data.category;
-  if (!byCategory.has(cat)) {
-    byCategory.set(cat, []);
-    order.push(cat);
-  }
+  if (!byCategory.has(cat)) byCategory.set(cat, []);
   byCategory.get(cat)!.push(entry);
 }
+
+// listed shelves first, in the order above; a new category lands after them
+const order = [
+  ...CATEGORY_ORDER.filter((c) => byCategory.has(c)),
+  ...[...byCategory.keys()].filter((c) => !CATEGORY_ORDER.includes(c)),
+];
 ---
 
 <BaseLayout title="Canon" description="Books, texts and teachings that shaped how Orkun Ravi Külçe thinks.">
