@@ -9,7 +9,7 @@ import { getCollection } from 'astro:content';
  */
 
 export const GET: APIRoute = async ({ site }) => {
-  const base = (site?.href ?? 'https://orkun.dev').replace(/\/$/, '');
+  const base = (site?.href ?? 'https://orkunkl.com').replace(/\/$/, '');
 
   const work = (await getCollection('work')).sort((a, b) => a.data.order - b.data.order);
   const canon = (await getCollection('canon')).sort((a, b) => a.data.order - b.data.order);

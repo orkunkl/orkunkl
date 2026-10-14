@@ -9,7 +9,7 @@ import { getCollection } from 'astro:content';
  */
 
 export const GET: APIRoute = async ({ site }) => {
-  const base = (site?.href ?? 'https://orkun.dev').replace(/\/$/, '');
+  const base = (site?.href ?? 'https://orkunkl.com').replace(/\/$/, '');
 
   const work = (await getCollection('work')).sort((a, b) => a.data.order - b.data.order);
   const canon = (await getCollection('canon')).sort((a, b) => a.data.order - b.data.order);
@@ -30,8 +30,8 @@ export const GET: APIRoute = async ({ site }) => {
   );
   out.push('');
   out.push(
-    'The site is organised in three sections. Everything under Work and Canon is ' +
-      'written as Markdown; the full text is available at ' +
+    'Everything under Work and Canon is written as Markdown; the full text is ' +
+      'available at ' +
       `[${base}/llms-full.txt](${base}/llms-full.txt).`
   );
   out.push('');
