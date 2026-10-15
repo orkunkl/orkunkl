@@ -405,7 +405,7 @@ nav{
   margin:0 auto;
   max-width:50ch;
   font-style:italic;
-  font-size:clamp(1rem,2.3vw,1.2rem);
+  font-size:clamp(1.05rem,2.5vw,1.3rem);
   line-height:1.6;
   color:var(--fg-soft);
   text-align:center;
@@ -420,7 +420,6 @@ nav{
   text-transform:uppercase;
   color:var(--fg-muted);
 }
-.work-quote cite em{font-style:italic;text-transform:none;letter-spacing:0.02em}
 
 /* ── Empty state ── */
 .empty{
