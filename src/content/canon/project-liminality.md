@@ -2,7 +2,7 @@
 title: Project Liminality
 author: David Rug
 kind: channel
-category: Content & Influences
+category: Meaning & the Mind
 whyItMatters: "It takes the coordination problem seriously enough to treat it as metaphysics — and then, unusually for this space, builds the mechanism instead of stopping at the diagnosis."
 tags: [Coordination, Metaphysics, Sense-making]
 link: https://www.youtube.com/@project-liminality
