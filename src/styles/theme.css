@@ -405,7 +405,7 @@ nav{
   margin:0 auto;
   max-width:50ch;
   font-style:italic;
-  font-size:clamp(1.05rem,2.5vw,1.3rem);
+  font-size:clamp(0.95rem,2vw,1.05rem);
   line-height:1.6;
   color:var(--fg-soft);
   text-align:center;
