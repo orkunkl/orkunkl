@@ -2,7 +2,7 @@
 title: Things Hidden Since the Foundation of the World
 author: René Girard
 kind: book
-category: Systems & Coordination
+category: Meaning & the Mind
 year: "1978"
 whyItMatters: "Moloch describes a trap with no exit. Girard argues societies did find one — and that it was a murder they then had to forget."
 tags: [Mimesis, Sacrifice, Anthropology]
