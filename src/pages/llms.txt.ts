@@ -19,7 +19,7 @@ export const GET: APIRoute = async ({ site }) => {
 
   const out: string[] = [];
 
-  out.push('# Orkun Ravi Külçe');
+  out.push('# Orkun Külçe');
   out.push('');
   out.push(
     '> Blockchain software engineer and metamodern technologist. Smart contracts in Rust ' +
