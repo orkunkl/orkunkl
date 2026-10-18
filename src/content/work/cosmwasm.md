@@ -13,7 +13,7 @@ CosmWasm is the smart-contract platform for the Cosmos ecosystem: contracts writ
 in Rust, compiled to WebAssembly, running on any chain that hosts the module.
 
 I worked in the ecosystem from its early days — through Confio, through my own
-company Deus Labs, and on my own. The work spanned shared contract libraries in
+company, and independently. The work spanned shared contract libraries in
 `cw-plus` and documentation, plus community programmes including Riddlethon.
 
 **Ecosystem:** CosmWasm across Cosmos
