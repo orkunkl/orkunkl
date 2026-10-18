@@ -381,11 +381,11 @@ nav{
   .about-sidebar{text-align:left;margin-bottom:1.5em}
 }
 
-/* closing image — same scale and treatment as the home hero rose */
-.about-image{margin:3.5em 0 0;padding:0}
-.about-image img{
+/* About opening rose — small, above the heading */
+.about-rose{margin:0 0 2.2em;padding:0}
+.about-rose img{
   display:block;
-  width:min(440px,74vw);
+  width:min(220px,50vw);
   height:auto;
   margin:0 auto;
 }
