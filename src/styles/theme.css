@@ -390,11 +390,11 @@ nav{
   margin:0 auto;
 }
 
-/* About closing mark — bookends the rose */
-.about-logo{margin:3em 0 0;padding:0}
-.about-logo img{
+/* Canon masthead mark */
+.canon-mark{margin:0 0 2.5em;padding:0}
+.canon-mark img{
   display:block;
-  width:min(220px,50vw);
+  width:min(300px,60vw);
   height:auto;
   margin:0 auto;
 }
