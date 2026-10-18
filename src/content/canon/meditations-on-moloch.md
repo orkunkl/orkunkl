@@ -4,7 +4,7 @@ author: Scott Alexander
 kind: essay
 category: Systems & Coordination
 year: "2014"
-whyItMatters: "A system nobody wants, that everyone keeps, because no one inside it can unilaterally stop. It gave me a name for the thing protocol design is actually for."
+whyItMatters: "A system nobody wants, that everyone keeps, because no one inside it can unilaterally stop."
 tags: [Coordination, Game Theory, Systems]
 link: https://slatestarcodex.com/2014/07/30/meditations-on-moloch/
 order: 16
@@ -25,7 +25,6 @@ including itself, the Malthusian trap. All of them the same shape: from a god's-
 view there is an obviously better outcome; from inside, no individual can get there
 without great risk to themselves. Bostrom's phrase for it is a dictatorless dystopia.
 
-This is the essay I keep returning to because it is the problem I work on. A protocol
-is what you build when "everyone just stop" is not a mechanism — when you need the
-coordination itself to be the thing that holds, rather than everyone's continued
-goodwill.
+A protocol is what you build when "everyone just stop" is not a mechanism — when you
+need the coordination itself to be the thing that holds, rather than everyone's
+continued goodwill.

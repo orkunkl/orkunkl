@@ -3,7 +3,7 @@ title: Let's Talk Religion
 author: Filip Holm
 kind: channel
 category: Content & Influences
-whyItMatters: "Academic religious studies without the flattening — it taught me to read traditions as internally diverse and always changing, never as fixed belief systems."
+whyItMatters: "Academic religious studies without the flattening — traditions read as internally diverse and always changing, never as fixed belief systems."
 tags: [Religion, Scholarship, Mysticism]
 link: https://www.youtube.com/@LetsTalkReligion
 order: 15
@@ -18,4 +18,4 @@ The channel's real gift is method. It keeps insisting that religions are interna
 diverse and change over time and place; that applying a Christian template — founder,
 scripture, creed — to Hinduism or Islam produces confident nonsense; that the border
 between "religion" and "culture" is a modern invention. That habit of asking who is
-defining the category, and in whose interest, is the part I keep.
+defining the category, and in whose interest, is the channel's method in one line.

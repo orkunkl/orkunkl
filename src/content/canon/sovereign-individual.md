@@ -21,7 +21,5 @@ That was written in 1997. The rest of the forecast is less comfortable, and they
 so — governments that can no longer tax will not shrug. They will get worse: hostage-
 taking as withholding tax, sabotage of the technologies that let wealth escape.
 
-What earns it a shelf here is the megapolitics. It doesn't argue that decentralisation
-is desirable, it argues it's what the physics of the situation produces. That is the
-same claim the protocols I work on are making, twelve years later, in code rather
-than prose.
+The book's real contribution is the megapolitics. It does not argue that decentralisation
+is desirable, it argues it is what the physics of the situation produces.

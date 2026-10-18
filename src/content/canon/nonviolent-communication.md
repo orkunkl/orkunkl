@@ -16,4 +16,4 @@ feeling, needing, and requesting even when their words arrive as blame.
 
 The load-bearing move is the third one. Needs are universal — safety, rest,
 connection, autonomy, meaning — and nobody has a need for a specific person to do a
-specific thing. Nearly every fight I've been in was a strategy dressed up as a need.
+specific thing. What arrives as a demand is always a strategy standing in for a need.

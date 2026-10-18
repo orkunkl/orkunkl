@@ -9,8 +9,8 @@ link: https://meaningness.com/
 order: 6
 ---
 
-A book written online, and the most practically useful thing I've read on meaning.
-Chapman invents a word — *meaningness* — for the quality of being meaningful and/or
+A book written online, in the open. Chapman invents a word — *meaningness* — for the
+quality of being meaningful and/or
 meaningless, and then refuses both of the obvious answers. Eternalism fixates on
 meaning. Nihilism denies it. Both are wrong, and both make you miserable.
 

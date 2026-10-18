@@ -14,8 +14,8 @@ the mid-2000s that peer production is not a hobby of the open-source world but a
 emerging mode of production with its own logic — and that the interesting question is
 not whether it works but how it gets governed.
 
-The thread I keep pulling is the commons as a third thing next to market and state.
-Once you stop seeing those two as the only options, most problems get a third answer.
+His central thread is the commons as a third thing next to market and state. Once
+those two stop looking like the only options, most problems get a third answer.
 He has taken that into practice too: commons transition plans for Ecuador and for
 Ghent, and more recently accounting systems for blockchain-based coordination.
 

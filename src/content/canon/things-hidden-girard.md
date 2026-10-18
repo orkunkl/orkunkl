@@ -4,7 +4,7 @@ author: René Girard
 kind: book
 category: Meaning & the Mind
 year: "1978"
-whyItMatters: "Moloch describes a trap with no exit. Girard argues societies did find one — and that it was a murder they then had to forget."
+whyItMatters: "A theory of how societies hold together: imitation turns rivals into doubles, the crisis dissolves every difference at once — and the fix was a killing everyone then had to forget."
 tags: [Mimesis, Sacrifice, Anthropology]
 order: 18
 ---
@@ -39,8 +39,5 @@ victim's side. Against Freud's *Totem and Taboo* he insists Christianity resembl
 archaic religion in form and inverts it in meaning: if Christ is sacrificed, it is not
 because God willed it but because human beings wanted it, and the texts say so.
 
-I read it beside *Meditations on Moloch* because the two describe the same trap from
-opposite ends. Moloch has no exit built in — imitation escalates and nobody can stop.
 Girard's answer is that societies did find an exit, and that it was a killing they then
-had to forget. That is a darker claim than the coordination literature usually permits,
-and I have not found a good counter to it.
+had to forget. That is a darker claim than the coordination literature usually permits.
