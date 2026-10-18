@@ -381,11 +381,11 @@ nav{
   .about-sidebar{text-align:left;margin-bottom:1.5em}
 }
 
-/* About opening rose — small, above the heading */
+/* About opening rose — above the heading */
 .about-rose{margin:0 0 2.2em;padding:0}
 .about-rose img{
   display:block;
-  width:min(220px,50vw);
+  width:min(340px,68vw);
   height:auto;
   margin:0 auto;
 }
