@@ -19,7 +19,7 @@ export const GET: APIRoute = async ({ site }) => {
   parts.push('# Orkun Külçe — full text');
   parts.push('');
   parts.push(
-    '> Blockchain software engineer and metamodern technologist. Smart contracts in Rust ' +
+    '> Blockchain technologist and metamodern mystic. Smart contracts in Rust ' +
       'in the Cosmos ecosystem, including StreamSwap on Osmosis, and developer relations ' +
       'for CosmWasm. ' +
       'Interested in regeneration and non-dual philosophies and practices. Delved into ' +
