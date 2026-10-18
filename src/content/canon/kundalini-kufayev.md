@@ -2,10 +2,10 @@
 title: "Kuṇḍalinī: The Goddess as the Power of Self-Recognition"
 author: Igor Kufayev
 kind: book
-category: Awakening & Its Traps
+category: The Non-Dual and Remembering
 whyItMatters: "Kuṇḍalinī is not an energy you acquire. She is consciousness recognising itself — and the process is not a metaphor."
 tags: [Non-dual, Kuṇḍalinī, Practice]
-order: 4
+order: 5
 ---
 
 Kufayev restores Kuṇḍalinī to the centre of the Trika Śaiva vision: not an esoteric

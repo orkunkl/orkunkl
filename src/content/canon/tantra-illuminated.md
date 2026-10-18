@@ -2,7 +2,7 @@
 title: "Tantra Illuminated: The Philosophy, History, and Practice of a Timeless Tradition"
 author: Christopher D. Wallis
 kind: book
-category: The Non-Dual Tradition
+category: The Non-Dual and Remembering
 year: "2012"
 whyItMatters: "It made the tradition legible as a tradition — not mysticism and not scandal, but a coherent philosophy with an argument, a history, and a practice someone can actually undertake."
 tags: [Non-dual, Sanskrit, Practice]

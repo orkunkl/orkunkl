@@ -2,7 +2,7 @@
 title: The Doctrine of Vibration
 author: Mark S. G. Dyczkowski
 kind: book
-category: The Non-Dual Tradition
+category: The Non-Dual and Remembering
 whyItMatters: "The clearest map of the non-dual tradition — it takes spanda, vibration, as the axle the whole system turns on."
 tags: [Non-dual, Spanda, Scholarship]
 order: 2

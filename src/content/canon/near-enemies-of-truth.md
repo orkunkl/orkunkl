@@ -2,10 +2,10 @@
 title: "Near Enemies of the Truth"
 author: Christopher Wallis
 kind: book
-category: Awakening & Its Traps
+category: The Non-Dual and Remembering
 whyItMatters: "The near enemy of wisdom is the certainty that you already have it — and half the slogans on this path are near enemies wearing its clothes."
 tags: [Practice, Non-duality, Discernment]
-order: 5
+order: 6
 ---
 
 A near enemy is a quality that so closely resembles a virtue that it is easily

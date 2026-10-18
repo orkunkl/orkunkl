@@ -2,7 +2,7 @@
 title: Spanda Kārikā
 author: Vasugupta · commentary by Kṣemarāja
 kind: text
-category: The Non-Dual Tradition
+category: The Non-Dual and Remembering
 year: "~9th century"
 whyItMatters: "Consciousness is not a still mirror. It is a pulse — and the whole world is that pulse knowing itself."
 tags: [Non-dual, Sanskrit, Spanda]

@@ -2,7 +2,7 @@
 title: Pratyabhijñāhṛdayam — The Recognition Sutras
 author: Kṣemarāja · translated by Christopher Wallis
 kind: text
-category: The Non-Dual Tradition
+category: The Non-Dual and Remembering
 year: "~11th century"
 whyItMatters: "Liberation is not something you gain. It is something you recognise — you were never not what you are looking for."
 tags: [Non-dual, Sanskrit, Recognition]
