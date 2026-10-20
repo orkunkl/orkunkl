@@ -65,7 +65,9 @@ Against that it sets **the Great Hoop**: Vine Deloria's contrast between spiritu
 rooted in place and spirituality rooted in history, where the second always defers
 resolution elsewhere. There is no original separation to heal, so there is nothing to
 escape. Kimmerer on plants as subjects rather than objects, Wildcat on needing a cultural
-climate change, Yunkaporta's crocodile who remembers you from the first crossing.
+climate change, Yunkaporta's crocodile who remembers you from the first crossing — and
+Thich Nhat Hanh's **interbeing**, the cloud floating in the sheet of paper, for the claim
+that nothing exists on its own.
 
 The closing contains the warning that gives the essay its weight: those who fight wetiko
 by its own means adopt its values and lose by winning. The cure is not better violence
