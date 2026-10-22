@@ -25,8 +25,7 @@ export const GET: APIRoute = async ({ site }) => {
     '> Blockchain technologist and metamodern mystic. Smart contracts in Rust ' +
       'in the Cosmos ecosystem, including StreamSwap on Osmosis, and developer relations ' +
       'for CosmWasm. ' +
-      'Interested in regeneration and non-dual philosophies and practices. Delved into ' +
-      'Spanda and Pratyabhijñā teachings.'
+      'Interested in regeneration and non-dual philosophies and practices.'
   );
   out.push('');
   out.push(
