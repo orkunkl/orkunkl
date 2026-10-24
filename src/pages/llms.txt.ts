@@ -37,7 +37,7 @@ export const GET: APIRoute = async ({ site }) => {
 
   out.push('## About');
   out.push('');
-  out.push(line('About', `${base}/about`, 'Background, interests, and what I believe.'));
+  out.push(line('About', `${base}/about`));
   out.push('');
 
   out.push('## Work');
@@ -50,8 +50,6 @@ export const GET: APIRoute = async ({ site }) => {
 
   out.push('## Canon');
   out.push('');
-  out.push('_Books, texts and teachings that shaped how I think._');
-  out.push('');
   if (canon.length === 0) out.push('_No entries yet._');
   for (const e of canon) {
     const by = [e.data.author, e.data.year].filter(Boolean).join(', ');
@@ -61,8 +59,8 @@ export const GET: APIRoute = async ({ site }) => {
 
   out.push('## Optional');
   out.push('');
-  out.push(line('Full text', `${base}/llms-full.txt`, 'Every entry concatenated as Markdown.'));
-  out.push(line('Search', `${base}/`, 'Pagefind indexes the built site.'));
+  out.push(line('Full text', `${base}/llms-full.txt`));
+  out.push(line('Search', `${base}/`));
   out.push('');
 
   return new Response(out.join('\n'), {
