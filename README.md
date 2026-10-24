@@ -1,74 +1,38 @@
-# orkun.kl
+<div align="center">
 
-Personal site — Astro + Pagefind, no framework theme, hand-written CSS.
+<img src="https://orkunkl.com/img/rose-single.webp" alt="A rose lit in electric blue and crimson" width="300">
 
-```
-src/
-├── content.config.ts          # collection schemas (the shape of every entry)
-├── content/                   # ← ALL CONTENT LIVES HERE (Markdown)
-│   ├── work/                  #   /work
-│   ├── inspirations/          #   /inspirations
-│   ├── canon/                 #   /canon
-│   └── README.md              #   frontmatter reference
-├── layouts/BaseLayout.astro   # <head>, nav, footer, search
-├── components/                # Nav · Footer · Search
-├── pages/
-│   ├── index.astro            # /
-│   ├── about.astro            # /about
-│   ├── work/index.astro       #   list
-│   ├── work/[...slug].astro   #   detail
-│   ├── inspirations/…         #   same pattern
-│   ├── canon/…                #   same pattern
-│   ├── llms.txt.ts            # /llms.txt
-│   └── llms-full.txt.ts       # /llms-full.txt
-└── styles/global.css          # everything, CSS custom properties
-```
+# Orkun Külçe
 
-## Commands
+<i>a builder, mover, and thinkerer</i>
 
-```bash
-bun install
-bun run dev          # dev server, http://localhost:4321
-bun run build        # → dist/
-bun run postbuild    # Pagefind index over dist/  (run after build)
-bun run preview      # serve dist/
-```
+</div>
 
-`bun run site` chains build → preview.
+I'm a blockchain technologist and metamodern mystic. Most of my work has been in the
+Cosmos ecosystem — smart contracts in Rust, including StreamSwap on Osmosis, and
+developer relations for CosmWasm. I breathe with decentralized systems and existences,
+and I'm interested in regeneration and non-dual philosophies and practices.
 
-Search and `llms.txt` only exist in a **built** site — Pagefind indexes `dist/`,
-and both are static endpoints. In dev the search panel opens and says so.
+I practice yoga, flow arts and movement.
 
-## Adding content
+> **Drive** — I believe in unity of all being, and the rest is temporal illusion for the
+> sake of play and joy. And technology is an expression of this uniting and playful urge.
 
-Copy `_template.md` in the right `src/content/<collection>/` folder to a new
-name and fill in the frontmatter. Listing, detail page, search index and
-`llms.txt` all update on the next build — no code changes.
+---
 
-Files starting with `_` are ignored by the loader, so templates never publish.
+### [Work](https://orkunkl.com/work)
 
-## Gotchas
+Things I've built and worked on — smart contracts, developer relations, a movement
+studio. Each one has a page of its own.
 
-- **The content cache goes stale when you *delete* a Markdown file.** Astro's
-  `.astro/` cache does not invalidate on deletion, so a removed entry keeps
-  publishing. If a deleted page is still in `dist/`, run:
+### [Canon](https://orkunkl.com/canon)
 
-  ```bash
-  rm -rf .astro node_modules/.astro dist && bun run build
-  ```
+Books, texts and teachings that shaped how I think, across nine shelves — coordination
+and systems, meaning and the mind, language, image and spectacle, technology and
+sovereignty, the non-dual tradition, sound and vibration.
 
-- **`build.format` is `directory`** — `/work` is `dist/work/index.html`. Every
-  static host resolves that without rewrite rules. Changing it to `file` breaks
-  extension-less URLs on plain file servers.
+---
 
-- **Search assets load lazily.** `pagefind-ui.js` is injected on first open of
-  the panel, so a 404 there means Pagefind hasn't run over the current `dist/`.
+**[orkunkl.com](https://orkunkl.com)** · [twitter](https://x.com/orkunkl_) · [instagram](https://instagram.com/orkunkl)
 
-## Deploy
-
-Static output — point any host at `dist/`. On Netlify / Vercel / Cloudflare
-Pages set the build command to `bun run build` and add `bun run postbuild` as
-the post-build step (or use `bun run build && bun run postbuild`).
-
-Set the real domain in `astro.config.mjs` → `site`, so `llms.txt` and canonical
-URLs are absolute.
+<sub>The source of this site is here too. Build and content notes are in [DEVELOPING.md](DEVELOPING.md).</sub>
