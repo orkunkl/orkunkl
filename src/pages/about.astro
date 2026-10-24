@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { site } from '../data/site';
 ---
 
 <BaseLayout title="About" description="Orkun Külçe — blockchain technologist in the Cosmos ecosystem.">
@@ -18,22 +19,15 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     <div class="about-grid">
       <div class="about-sidebar">
         <span class="label">Name</span>
-        <span class="value highlight">Orkun Külçe</span>
+        <span class="value highlight">{site.name}</span>
         <span class="label">Location</span>
         <span class="value">Turkey</span>
         <span class="label">Interests</span>
         <span class="value">Decentralized Systems<br>Regeneration<br>Non-dual Philosophy<br>Flow Art</span>
       </div>
       <div>
-        <p>
-          I'm a blockchain technologist and metamodern mystic. Most of my
-          work has been in the Cosmos ecosystem — smart contracts in Rust, including
-          StreamSwap on Osmosis, and developer relations for CosmWasm. I work for a
-          decentralized future. I'm interested in regeneration and refi.
-        </p>
-        <p>
-          I practice yoga, flow arts and movement.
-        </p>
+        <p>{site.bio}</p>
+        <p>{site.practice}</p>
       </div>
     </div>
 

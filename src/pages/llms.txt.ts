@@ -1,5 +1,6 @@
 import type { APIRoute } from 'astro';
 import { getCollection } from 'astro:content';
+import { site } from '../data/site';
 
 /**
  * /llms.txt — the llmstxt.org convention.
@@ -8,8 +9,8 @@ import { getCollection } from 'astro:content';
  * find what it needs, without crawling and parsing HTML.
  */
 
-export const GET: APIRoute = async ({ site }) => {
-  const base = (site?.href ?? 'https://orkunkl.com').replace(/\/$/, '');
+export const GET: APIRoute = async ({ site: canonical }) => {
+  const base = (canonical?.href ?? 'https://orkunkl.com').replace(/\/$/, '');
 
   const work = (await getCollection('work')).sort((a, b) => a.data.order - b.data.order);
   const canon = (await getCollection('canon')).sort((a, b) => a.data.order - b.data.order);
@@ -19,14 +20,9 @@ export const GET: APIRoute = async ({ site }) => {
 
   const out: string[] = [];
 
-  out.push('# Orkun Külçe');
+  out.push(`# ${site.name}`);
   out.push('');
-  out.push(
-    '> Blockchain technologist and metamodern mystic. Smart contracts in Rust ' +
-      'in the Cosmos ecosystem, including StreamSwap on Osmosis, and developer relations ' +
-      'for CosmWasm. ' +
-      'I work for a decentralized future. Interested in regeneration and refi.'
-  );
+  out.push(`> ${site.bio}`);
   out.push('');
   out.push(
     'Everything under Work and Canon is written as Markdown; the full text is ' +
