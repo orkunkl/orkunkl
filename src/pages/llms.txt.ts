@@ -22,8 +22,7 @@ export const GET: APIRoute = async ({ site: canonical }) => {
 
   out.push(`# ${site.name}`);
   out.push('');
-  out.push(`> ${site.bio}`);
-  out.push(`> ${site.intent}`);
+  for (const line of site.lead) out.push(`> ${line}`);
   out.push('');
   out.push(
     'Everything under Work and Canon is written as Markdown; the full text is ' +

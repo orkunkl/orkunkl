@@ -19,8 +19,7 @@ export const GET: APIRoute = async ({ site: canonical }) => {
 
   parts.push(`# ${site.name} — full text`);
   parts.push('');
-  parts.push(`> ${site.bio}`);
-  parts.push(`> ${site.intent}`);
+  for (const line of site.lead) parts.push(`> ${line}`);
   parts.push('');
   parts.push(`Index: ${base}/llms.txt`);
   parts.push('');
