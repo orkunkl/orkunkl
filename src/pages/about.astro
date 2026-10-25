@@ -26,15 +26,7 @@ import { site } from '../data/site';
         <span class="value">Decentralized Systems<br>Regeneration<br>Non-dual Philosophy<br>Flow Art</span>
       </div>
       <div>
-        <p>
-          {site.lead.map((line, i) => (
-            <>
-              {i > 0 && <br />}
-              {line}
-            </>
-          ))}
-        </p>
-        <p>{site.practice}</p>
+        {site.lead.map((para) => <p>{para}</p>)}
       </div>
     </div>
 

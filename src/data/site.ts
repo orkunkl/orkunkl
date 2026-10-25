@@ -15,17 +15,15 @@ export const site = {
   tagline: 'a builder, mover, and thinkerer',
 
   /**
-   * The lead paragraph, one entry per line. Home and About join them with a
-   * line break; the llms endpoints emit one blockquote line each. Add or
-   * remove a line here and every surface follows.
+   * The intro, one entry per paragraph. Home, About, both llms endpoints and
+   * the README all follow this list — add or remove a paragraph here and every
+   * surface moves together.
    */
   lead: [
     "I'm a blockchain technologist and metamodern mystic. Most of my work has been in " +
       'the Cosmos ecosystem — smart contracts in Rust, including StreamSwap on Osmosis, ' +
       'and developer relations for CosmWasm.',
-    'I serve a solarpunk future.',
-    "I'm interested in regeneration and refi.",
+    "I serve a solarpunk future. I'm interested in regeneration and refi.",
+    'I practice yoga, flow arts and movement.',
   ],
-
-  practice: 'I practice yoga, flow arts and movement.',
 } as const;

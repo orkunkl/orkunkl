@@ -13,15 +13,7 @@ import { site } from '../data/site';
   </section>
 
   <div class="page page-body">
-    <p class="lead">
-      {site.lead.map((line, i) => (
-        <>
-          {i > 0 && <br />}
-          {line}
-        </>
-      ))}
-    </p>
-    <p>{site.practice}</p>
+    {site.lead.map((para, i) => <p class={i === 0 ? 'lead' : undefined}>{para}</p>)}
 
     <hr>
 
