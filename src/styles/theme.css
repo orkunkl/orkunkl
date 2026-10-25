@@ -261,6 +261,19 @@ nav{
   margin-bottom:2.5em;
 }
 
+/* The caveat that heads the Canon. Pulled up against the lede's own margin so
+   the rule sits close beneath it rather than floating. */
+.canon-note{
+  font-family:var(--serif);
+  font-size:0.9375rem;
+  line-height:1.7;
+  color:var(--fg-muted);
+  max-width:56ch;
+  margin:-1.1em 0 3em;
+  padding-top:1.4em;
+  border-top:1px solid var(--line);
+}
+
 /* ── Entry / detail pages ── */
 .entry-head{margin-bottom:2rem}
 .entry-title{
