@@ -17,7 +17,7 @@ export const site = {
   /** The lead paragraph. Home and About render it verbatim. */
   bio: "I'm a blockchain technologist and metamodern mystic. Most of my work has " +
     'been in the Cosmos ecosystem — smart contracts in Rust, including StreamSwap ' +
-    'on Osmosis, and developer relations for CosmWasm. I work for a decentralized ' +
+    'on Osmosis, and developer relations for CosmWasm. I serve a solarpunk ' +
     "future. I'm interested in regeneration and refi.",
 
   practice: 'I practice yoga, flow arts and movement.',
