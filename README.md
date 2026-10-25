@@ -10,8 +10,9 @@
 
 I'm a blockchain technologist and metamodern mystic. Most of my work has been in the
 Cosmos ecosystem — smart contracts in Rust, including StreamSwap on Osmosis, and
-developer relations for CosmWasm. I serve a solarpunk future. I'm interested in
-regeneration and refi.
+developer relations for CosmWasm.
+
+I serve a solarpunk future. I'm interested in regeneration and refi.
 
 I practice yoga, flow arts and movement.
 
