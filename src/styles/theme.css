@@ -274,6 +274,19 @@ nav{
   border-top:1px solid var(--line);
 }
 
+/* Embedded video. Held to the narrow measure so it does not dominate the
+   entry, in a 16:9 box so the player follows the column as it resizes. */
+.video-embed{
+  margin:2.5em 0;
+  max-width:var(--col-narrow);
+}
+.video-embed iframe{
+  display:block;
+  width:100%;
+  aspect-ratio:16 / 9;
+  border:1px solid var(--line);
+}
+
 /* ── Entry / detail pages ── */
 .entry-head{margin-bottom:2rem}
 .entry-title{

@@ -21,6 +21,16 @@ Landry developed through the 1990s. Its companion video,
 argument in one arc — from Landry's system, down through Moloch, and back out to the more
 beautiful world.
 
+<figure class="video-embed">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/yrgSwgqclJU"
+    title="The Age of Miracles — Project Liminality"
+    loading="lazy"
+    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen></iframe>
+</figure>
+
 Its compact statement is *love is that which enables choice; fear is what consumes it*.
 From that single distinction Rug derives two modes of mind: **domesticated**, which uses
 story as a tool — narrative — and **liminal**, which serves story as a being — vision.
