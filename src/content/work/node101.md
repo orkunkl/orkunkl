@@ -10,7 +10,7 @@ order: 4
 
 When I first connected with the Node101 team they were at the start of their
 blockchain journey. I introduced them to Cosmos and its core philosophy, and have
-supported them since as they grew into a key player in Turkey's blockchain
+supported them since as they grew into a key player in Türkiye's blockchain
 ecosystem.
 
 My contributions are technical advisory, event organisation, making room for people
