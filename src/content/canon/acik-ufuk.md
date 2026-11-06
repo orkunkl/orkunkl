@@ -4,7 +4,7 @@ author: İbrahim Kalın
 kind: book
 category: Meaning & the Mind
 whyItMatters: "Its claim is that thinking is not a mental activity but an existential one — that a thought which does not change how you act has not been thought through, and does not yet deserve the name wisdom."
-tags: [Thinking, Virtue, Wisdom]
+tags: [Thinking, Virtue, Islamic Philosophy]
 year: "2021"
 link: "https://www.insankitap.com/acik-ufuk-iyi-dogru-ve-guzel-dusunmek-uzerine-575"
 order: 28
@@ -22,19 +22,27 @@ rather than skating across the surface. And he holds onto Plato's cave, where th
 standing up and walking towards the door while the others mock, and freeing the shackles on
 the mind before those on the feet.
 
-The argument's sharp edge is its refusal of the split between knowing and doing. He asks
-whether thinking rightly guarantees virtue, whether reflection is enough for ethics,
-whether knowing always means acting well — and his answer is that schools which reduce
-thinking to a mental operation cannot answer them at all, because a mind that separates the
-good, the beautiful and the true never builds a necessary link between thought and conduct.
-What counts as good and right inside the calculus of profit fails when weighed on the scales
-of reason and virtue.
+The argument's sharp edge is its refusal of the split between knowing and doing, and Mulla
+Sadra supplies the keystone. The book quotes Sadra's definition of philosophy: to know the
+reality of things as they are, within the compass of human capacity, and to act in
+accordance with them. The questions then follow — does thinking rightly guarantee virtue, is
+reflection enough for ethics, does knowing always mean acting well? — and the answer is that
+schools which reduce thinking to a mental operation cannot answer them at all, because a
+mind that separates the good, the beautiful and the true never builds a necessary link
+between thought and conduct. What counts as good and right inside the calculus of profit
+fails on the scales of reason and virtue.
 
 So genuine thought runs through the whole of a person rather than occupying a department of
-them: it envelops and transforms. A thought earns the name *hikmet* — wisdom — only once it
-has changed how one lives, a standard considerably stricter than being correct. The book
-closes by asking for silence and for thinking to begin.
+them. Being discloses itself to us, the book says, to the degree that we are ready to
+receive it — the same claim seen from the other side. A thought earns the name *hikmet*,
+wisdom, only once it has changed how one lives, a standard considerably stricter than being
+correct. The book closes by asking for silence and for thinking to begin.
 
-Kalın's doctorate and earlier work are in Islamic thought, and the book takes its bearings
-from that tradition rather than from contemporary academic philosophy. He has also served
-as Türkiye's presidential spokesman.
+Mulla Sadra runs through the book rather than appearing in it once: he is among its most
+frequently cited figures, standing beside Heidegger and Wittgenstein on the question of
+being. That is not incidental to the author. Kalın's doctorate, written under Seyyed Hossein Nasr, was on
+Sadra's theory of knowledge — the union of the intellect and the intelligible — and became
+*Knowledge in Later Islamic Philosophy* (Oxford, 2010), published in Turkish as *Varlık ve
+İdrak*. Açık Ufuk is that scholarship put to work for a general reader: the same ontology of
+existence, addressed to how a person should think and live. Kalın has also served as
+Türkiye's presidential spokesman.
