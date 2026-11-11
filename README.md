@@ -16,9 +16,6 @@ I'm interested in regeneration and refi. I serve a solarpunk and cosmolocal futu
 
 I practice yoga, flow arts and movement.
 
-> **Drive** — I believe in unity of all being, and the rest is temporal illusion for the
-> sake of play and joy. And technology is an expression of this uniting and playful urge.
-
 ---
 
 ### [Work](https://orkunkl.com/work)
