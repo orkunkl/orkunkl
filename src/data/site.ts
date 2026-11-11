@@ -25,6 +25,5 @@ export const site = {
       'and developer relations for CosmWasm.',
     "I'm interested in regeneration and refi. I serve a solarpunk and cosmolocal future.",
     'I practice yoga, flow arts and movement.',
-    'I translate ancient Indian sutras to Turkish for fun.',
   ],
 } as const;
